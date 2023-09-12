@@ -1,7 +1,7 @@
 # Furigana
 
 A Minecraft resource pack that provides Japanese [furigana](https://en.wikipedia.org/wiki/Furigana) for use with the
-[Rubi mod](https://github.com/keve1227/rubi). The mod is not required to use this resource pack, but it is highly
+[Rubi mod](https://modrinth.com/mod/rubi). The mod is not required to use this resource pack, but it is highly
 recommended.
 
 While the resource pack is fairly comprehensive, please note that I haven't thoroughly verified every annotation (there
