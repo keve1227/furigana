@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 18,
+        "pack_format": 22,
         "description": "Provides Japanese furigana for use with the Rubi mod."
     },
     "language": {
