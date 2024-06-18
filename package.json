@@ -1,0 +1,24 @@
+{
+    "name": "furigana",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "download-translations": "node ./scripts/download-translations.js",
+        "convert": "node ./scripts/convert.js",
+        "assemble": "node ./scripts/assemble.js",
+        "build": "npm run download-translations && npm run convert && npm run assemble"
+    },
+    "dependencies": {
+        "kuromojin": "^3.0.0",
+        "minimatch": "^9.0.4",
+        "prettier": "^3.3.2",
+        "semver": "^7.6.2",
+        "yaml": "^2.4.5"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.5",
+        "@types/readline-sync": "^1.4.8",
+        "@types/semver": "^7.5.8"
+    }
+}
