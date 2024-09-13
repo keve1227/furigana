@@ -50,7 +50,7 @@ an issue or submitting a pull request.
   (most of the popular, widely-used distributions usually do).
 
   ```bash
-  mv "$(xdg-user-dir DOWNLOAD)/Furigana-v*+1.2*.zip" "${HOME}/.minecraft/resourcepacks"
+  mv $(xdg-user-dir DOWNLOAD)/Furigana-v*+*.zip "${HOME}/.minecraft/resourcepacks"
   ```
 
   **Manually**:
