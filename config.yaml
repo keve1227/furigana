@@ -1,10 +1,10 @@
 sources:
   - version: "1.20.x" # All versions from 1.20 to 1.20.6 use the same Japanese translation
     outputs:
-      - name: Furigana-v3+1.20-1.20.1
+      - name: Furigana-v4+1.20-1.20.1
         pack_format: 15 # 1.20 and 1.20.1 have the same pack format
 
-      - name: Furigana-v3+1.20.2-1.20.6
+      - name: Furigana-v4+1.20.2-1.20.6
         pack_format: 32
         supported_formats: # `supported_formats` added in 1.20.2
           min_inclusive: 16
@@ -12,7 +12,7 @@ sources:
 
   - version: "1.21.x"
     outputs:
-      - name: Furigana-v3+1.21-1.21.1
+      - name: Furigana-v4+1.21-1.21.1
         pack_format: 34
         supported_formats:
           min_inclusive: 33
