@@ -1,40 +1,94 @@
 # Furigana
 
-A Minecraft resource pack that provides Japanese [furigana](https://en.wikipedia.org/wiki/Furigana) for use with the
-[Rubi mod](https://modrinth.com/mod/rubi). The mod is not required to use this resource pack, but it is highly
-recommended.
+<div align="center">
+    <img
+        src="./images/comparison_a.webp"
+        alt="furigana+rubi"
+    />
+    <caption>
+        Furigana over Japanese text on a wooden sign in game <b>with the
+        <a href="https://modrinth.com/mod/rubi">Rubi mod</a> enabled</b>.
+    </caption>
+</div>
 
-While the resource pack is fairly comprehensive, please note that I haven't thoroughly verified every annotation (there
-are a lot of them), so I should expect there to be some inaccuracies. If you find any, please let me know by opening an
-issue or submitting a pull request.
+## Introduction
+
+A Minecraft resource pack that provides
+[furigana](https://en.wikipedia.org/wiki/Furigana) for the Japanese language.
+
+While the resource pack is fairly comprehensive, please note that I haven't
+thoroughly verified every annotation (there are a lot of them), so I expect
+there to be some inaccuracies. If you find any, please let me know by opening
+an issue or submitting a pull request.
+
+> [!TIP]
+> You can use the **Rubi** mod to display the furigana above the text. This is
+> not required, but highly recommended.
+
+| ![furigana+rubi](./images/comparison_a.webp) | ![furigana](./images/comparison_b.webp) |
+|:---:|:---:|
+| Furigana + Rubi mod | Furigana only |
 
 ## Installation
 
-1. Go to the [releases page](https://github.com/keve1227/furigana/releases) and download the latest release.
-2. Place the ZIP file in your Minecraft resource pack folder. You can find this folder by opening Minecraft and going to
-   Options > Resource Packs > Open Pack Folder.
+* Download the latest release from
+  [Modrinth](https://modrinth.com/resourcepack/furigana/versions)
+* Assuming the download is in the default `Downloads` directory, you can use
+  the following command to move the ZIP file to the `resourcepacks` directory:
 
-## Usage
+  **Windows**:
 
-The resource pack adds a "new" language that is separate from the standard Japanese translation. To enable it, go to
-Options > Language and select "日本語＋振り仮名 (日本)" from the list.
+  ```cmd
+  move "%USERPROFILE%\Downloads\Furigana-v*+*.zip" "%APPDATA%\.minecraft\resourcepacks"
+  ```
 
-## Showcase
+  **Linux**:
 
-> **Note:** The screenshots below were taken with the Rubi mod enabled.
-> [Here](https://raw.githubusercontent.com/keve1227/furigana/main/images/comparison_b.webp) is an example of what the
-> text looks like without the mod.
+  The following command assumes you are using a Linux distribution that
+  follows the
+  [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/latest/index.html)
+  (most of the popular, widely-used distributions usually do).
 
-![Torch](https://github.com/keve1227/furigana/blob/main/images/taimatsu.webp)
+  ```bash
+  mv "$(xdg-user-dir DOWNLOAD)/Furigana-v*+1.2*.zip" "${HOME}/.minecraft/resourcepacks"
+  ```
 
-![Pause Menu](https://github.com/keve1227/furigana/blob/main/images/menu.webp)
+  **Manually**:
 
----
+  Go to **Options** > **Resource Packs** and click the "Open Pack Folder"
+  button, then move the downloaded ZIP into this directory.
 
-### Example with the Rubi Mod
+* Within Minecraft, the resource pack adds a new language option that is
+  separate from the standard Japanese translation. To enable it, go to
+  **Options** > **Language** and select "日本語＋振り仮名 (日本)".
 
-![Example with the Rubi mod](https://github.com/keve1227/furigana/blob/main/images/comparison_a.webp)
+  ![New option in Language Settings](./images/option-in-language-settings.png)
 
-### Example without the Rubi Mod
+<h2 align="center">Showcase</h2>
 
-![Example without the Rubi mod](https://github.com/keve1227/furigana/blob/main/images/comparison_b.webp)
+<div align="center">
+    <img
+        src="./images/taimatsu.webp"
+        alt="furigana-over-taimatsu"
+        width="1280"
+        height="720"
+    />
+</div>
+
+<div align="center">
+    <img
+        src="./images/menu.webp"
+        alt="furigana-in-menu"
+        width="1280"
+        height="720"
+    />
+</div>
+
+<div align="center">
+    <img
+        src="./images/enchanting-table.png"
+        alt="Furigana in the Enchanting Table"
+        width="1280"
+        height="720"
+    />
+</div>
