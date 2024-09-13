@@ -38,19 +38,22 @@ an issue or submitting a pull request.
 
   **Windows**:
 
+  Open Command Prompt (or change `move` to `Move-Item` and use Powershell),
+  and paste the following command:
+
   ```cmd
   move "%USERPROFILE%\Downloads\Furigana-v*+*.zip" "%APPDATA%\.minecraft\resourcepacks"
   ```
 
   **Linux**:
 
-  The following command assumes you are using a Linux distribution that
+  **Note**: The following command assumes you are using a Linux distribution that
   follows the
   [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/latest/index.html)
-  (most of the popular, widely-used distributions usually do).
+  (don't worry, most of the popular, widely-used distributions do).
 
   ```bash
-  mv $(xdg-user-dir DOWNLOAD)/Furigana-v*+*.zip "${HOME}/.minecraft/resourcepacks"
+  mv "$(xdg-user-dir DOWNLOAD)"/Furigana-v*+*.zip "${HOME}/.minecraft/resourcepacks"
   ```
 
   **Manually**:
