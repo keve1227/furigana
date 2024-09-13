@@ -70,8 +70,7 @@ an issue or submitting a pull request.
     <img
         src="./images/taimatsu.webp"
         alt="furigana-over-taimatsu"
-        width="1280"
-        height="720"
+        width="100%"
     />
 </div>
 
@@ -79,8 +78,7 @@ an issue or submitting a pull request.
     <img
         src="./images/menu.webp"
         alt="furigana-in-menu"
-        width="1280"
-        height="720"
+        width="100%"
     />
 </div>
 
@@ -88,7 +86,6 @@ an issue or submitting a pull request.
     <img
         src="./images/enchanting-table.png"
         alt="Furigana in the Enchanting Table"
-        width="1280"
-        height="720"
+        width="100%"
     />
 </div>
